@@ -43,4 +43,4 @@
 #define volumen_almacenamiento_limite 150                                                     //Valor máximo de volumen del tanque de almacenamiento//
 #define volumen_ventas_limite 1.5                                                             //Valor máximo de volumen de los dispensadores//
 #define volumen_fugas_limite 1.5                                                              //Valor máximo de volumen del tanque de fugas//
-float duracion_ciclo = 0.0002;                                                                //Tiempo que dura un ciclo de simulación//
+float duracion_ciclo = 0;                                                                     //Tiempo que dura un ciclo de simulación//

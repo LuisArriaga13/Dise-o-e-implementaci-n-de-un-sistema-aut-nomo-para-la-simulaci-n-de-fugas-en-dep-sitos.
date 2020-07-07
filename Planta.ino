@@ -30,7 +30,7 @@ Deposito_sim tanque_fugas (HIGH, valvula_vaciado_tanque_fugas, sensor_vol_fugas,
 void loop() {
 
   //Actualizamos el valor de volumen de los tanques//
-  
+  duracion_ciclo = millis() - duracion_ciclo;
   tanque_recarga.actualizar_volumen(duracion_ciclo);
   tanque_almacenamiento.incrementar_volumen(tanque_recarga.get_decremento());
   tanque_retorno.disminuir_volumen(tanque_recarga.get_incremento());
